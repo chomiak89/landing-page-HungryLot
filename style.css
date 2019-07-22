@@ -1,0 +1,87 @@
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #FFA936;
+    padding: .5% 0;
+    font-size: 1.2em;
+}
+
+ul a {
+    color: white;
+}
+
+ul a:hover, ul a.active {
+    color: #343a40;
+}
+#logoText {
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+
+
+/* Landing Styles */
+#home {
+    background: url("img/background1.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    /* background-color: rgba(255, 255, 255, 0.3) */
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.padding {
+    padding: 80px 0;
+}
+.padding img {
+    width: 100%;
+    border-radius: 40px 10px;
+}
+
+
+#fixed {
+    background: url("img/background3.jpg") no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    background-color: #91E932;
+    padding: 3% 3% 3% 3%;
+    color: #fff;
+}
+
+
+#aside1img, #aside2img {
+    width: 50%;
+    height: auto;
+    margin: 25px 0px;
+}
+#aside1txt, #aside2txt {
+    margin: 25px 0px;
+}
+
+.footerCon {
+    margin: 7px;
+}
